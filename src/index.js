@@ -5,7 +5,7 @@ import './index.css';
 
 // Redux 관련 객체 불러오기
 import { createStore } from "redux";
-import reducer from './reducers';
+import reducer from './modules';
 import { Provider } from "react-redux";
 
 // 스토어 생성
